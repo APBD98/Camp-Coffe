@@ -1,0 +1,402 @@
+
+/* start Navbar */
+.navbar{
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    background-color: rgb(32, 31, 31);
+    z-index: 100;
+    
+}
+
+.navbar .navigasi{
+    height: 50px;
+    width: 500px;
+    margin-right: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar .logo{
+    margin-left: 50px;
+}
+
+.navbar .logo a{
+    text-decoration: none;
+    color: white;
+}
+
+.navbar .navigasi a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+/* End Navbar */
+
+/* start Main */
+.main{
+    width: 100%;
+    min-height: 1000px;
+    margin: 50px auto;
+    position: relative;
+    left: 0;
+}
+
+/* start jumbotron */
+.main .jumbotron{
+    margin-top: -20px;
+}
+.main img{
+    margin-top: -80px;
+    width: 100%;
+}
+
+.jumbotron .venue{
+    position: absolute;
+    top: 300px;
+    left: 100px;
+    color: rgb(15, 15, 15);
+}
+
+.jumbotron .venue p{
+    font-size: 18px;
+    color: rgb(71, 71, 69);
+}
+
+/* end jumbotron */
+/* start tagline */
+.main .tagline{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(32, 31, 31);
+    text-transform: uppercase;
+    color: rgb(202, 200, 200);
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main .tagline h2{
+    margin-left: 100px;
+    margin-top: -15px;
+}
+
+.menu-list{
+    min-height: 400px;
+    padding-top: 100px;
+}
+
+/* end main */
+
+/* start section philosopy */
+.philosophy{
+    min-height: 400px;
+    margin-top: 100px;
+    padding: 50px;
+    background-color: rgb(229, 229, 230);
+}
+
+/* end philosopy */
+.recipes{
+    min-height: 600px;
+    width: 100%;
+}
+
+.recipes .section1{
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+.recipes img{
+    padding: 30px;
+    width: 80%;
+    margin-top: 20px;
+}
+
+/* end recipes */
+
+
+/* start gallery */
+.gallery{
+    margin-top: 100px;
+    background-color: rgb(229, 229, 230);
+    min-height: 1000px;
+    padding: 50px;
+}
+
+.gallery img{
+    margin-top: 100px;
+}
+
+/* end gallery */
+
+/* start book table */
+
+.book-table{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(32, 31, 31);
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
+}
+
+.book-table .detail{
+    width: 400px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+/* end book table */
+/* /////////////////////////////////////////// */
+/* //////////////////////////////////////////// */
+/* end main page */
+
+
+
+/* Start Menu Page */
+.menu-page{
+    min-height: 500px;
+    position: relative;
+    top: 80px;
+    right: 0;
+    left: 0;
+    margin-bottom: 200px;
+}
+
+.menu-page img{
+    width: 100%;
+}
+
+.menu-page .text{
+    position: absolute;
+    top: 190px;
+    left: 200px;
+    color: rgb(230, 228, 224);
+    text-transform: uppercase;
+}
+
+/* start main-menu */
+
+.main-menu{
+    margin-bottom: 100px;
+}
+
+/* end main menu */
+/* //////////////////////////////////// */
+/* ////////////////////////////////////// */
+/* end menu page */
+
+
+/* start Contact page */
+
+.contact-page{
+    position: relative;
+    width: 100%;
+    min-height: 800px;
+    top: 200px;
+}
+
+/* //////////////////////// */
+/* ///////////////////////////////// */
+
+/* end contact page */
+
+/* start booking page */
+.book-page{
+    position: relative;
+    top: 80px;
+    background-color: rgb(229, 229, 230);
+    min-height: 1000px;
+    margin-bottom: 200px;
+    
+
+}
+
+.book-page .part1{
+    padding-top: 150px ;
+    padding-left: 200px;
+    min-height: 700px;
+}
+
+.book-page .part2{
+    width: 100%;
+    min-height: 400px;
+    background-color: white;
+}
+
+.book-page .part2 .text{
+    width: 900px;
+    padding-top: 100px;
+    padding-left: 200px;
+}
+
+/* end book page */
+
+
+
+/* start footer */
+.footer{
+    margin-top: -50px;
+    position:absolute;
+    padding-top: 20px;
+    right: 0;
+    left: 0;
+    height: 400px;
+    background-color: rgb(229, 229, 230);
+}
+
+.footer .section1{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.footer .section2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+@media only screen and (max-width: 768px) {
+    /* start Navbar */
+    .navbar{
+        width: 100%;
+        height: 150px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        background-color: rgb(32, 31, 31);
+        z-index: 100;
+        
+    }
+
+    .navbar .navigasi{
+        margin: auto;
+        height: 50px;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    /* end navbar */
+
+    /* start jumbotron */
+
+    .main .jumbotron{
+        margin-top: 100px;
+    }
+    .main img{
+        margin-top: 0px;
+        width: 100%;
+        height: 400px;
+    }
+    
+    .jumbotron .venue{
+        position: absolute;
+        top: 120px;
+        left: 10px;
+        color: rgb(15, 15, 15);
+    }
+    /* end jumbotron */
+
+    /* start tagline */
+    .main .tagline{
+        width: 100%;
+        height: 400px;
+        background-color: rgb(32, 31, 31);
+        text-align: center;
+    }
+    .main .tagline .coffee{
+        display: none;
+    }
+    
+    .main .tagline h2{
+        margin-left: 0px;
+        font-size: 18px;
+        padding-top: 5px;
+    }
+
+    /* end tagline */
+    /* start philo */
+    .philosophy img{
+        height: 500px;
+    }
+    /* end philo */
+
+    /* start recipes */
+    .recipes img{
+        height: 520px;
+    }
+
+    /* menu page */
+    .menu-page .text{
+        top: 100px;
+        left: 20px;
+        font-size: 18px;
+    }
+
+    /* start contact page */
+    .contact-page{
+        margin-bottom: 400px;
+    }
+
+    /* start book page */
+    .book-page{
+        
+        min-height: 700px;
+        margin-bottom: 0px;
+        
+    
+    }
+    
+    .book-page .part1{
+        padding-top: 150px ;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    .book-page .part2{
+        width: 100%;
+        min-height: 400px;
+        background-color: white;
+        margin-bottom: 50px;
+    }
+    
+    .book-page .part2 .text{
+        width: 400px;
+        padding-top: 100px;
+        padding-left: 100px;
+    }
+
+    .book-page .part2 h1{
+        font-size: 18px;
+    }
+
+    /* start footer */
+    .footer{
+        height: 500px;
+    }
+
+}
+
